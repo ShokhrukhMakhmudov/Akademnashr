@@ -45,6 +45,9 @@ h2, h4{
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+.main-header__item a:hover {
+    color: #ff7500;
+}
 .main-header__btn a, .subtitle-content__btn, .sale-content__btn {
     text-decoration: none;
     color: #fff;
@@ -173,6 +176,7 @@ footer {
     width: 1440px;
     padding: 67px 170px;
     margin: auto;
+    background-color: #f8f8f8;
 }
 .footer-top {
     display: flex;
