@@ -21,8 +21,11 @@ h2, h4{
 }
 /* Main Header */
 .main-header {
+    max-width: 100%;
+    width: 1440px;
     border-top: #ff7500 solid 5px;
     padding: 16px 0;
+    margin: auto;
 }
 .container-flex {
     display: flex;
@@ -55,12 +58,13 @@ h2, h4{
     background-color: #ff7500;
     border-radius: 4px;
 }
+
 /* Subtitle */
 
 .subtitle {
     max-width: 100%;
     width: 1440px;
-    height: 550px;
+    height: 488px;
     display: flex;
     justify-content: space-between;
     padding: 80px 10px 80px 170px;
@@ -94,10 +98,12 @@ h2, h4{
     width: 510px;
     border-radius: 8px;
     box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
+    margin-top: -40px;
 }
 /* Features */
 
 .features {
+    max-width: 100%;
     width: 1440px;
     height: 936px;
     padding: 210px 170px;
@@ -123,6 +129,7 @@ h2, h4{
 }
 .features-list__item {
     width: 340px;
+    margin-right: 40px;
 }
 .features-list__item h4 {
     margin: 32px 0 12px 0;
@@ -140,7 +147,7 @@ h2, h4{
     background: #252420;
     margin: auto;
     color: #fff;
-    padding: 64px;
+    padding: 64px 64px;
     letter-spacing: 0.5px;
     display: flex;
     justify-content: space-between;
@@ -151,9 +158,10 @@ h2, h4{
 .sale-content h2{
     font-weight: 700;
     font-size: 40px;
+    margin-top: 0;
 }
 .sale-content__info {
-    width: 100%;
+    width: 440px;
 }
 .sale-content__info p{
     font-weight: 400;
@@ -163,29 +171,35 @@ h2, h4{
     color: #ff7500;
     font-style: normal;
 }
-.sale-content__info:nth-child(2) {
+.sale-content__info p:nth-child(2) {
     margin-bottom: 36px;
 }
 .sale img{
     width: 440px;
     border-radius: 12px;
-    margin-top: -149px;
+    margin-top: -135px;
 }
 /* Footer */
 footer {
+    max-width: 100%;
     width: 1440px;
     padding: 67px 170px;
     margin: auto;
     background-color: #f8f8f8;
+    margin-top: 160px;
 }
 .footer-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer-top__icons i{
+.footer-top__icons a{
     margin-left: 16px;
     font-size: 24px;
+    color: #252420;
+}
+.footer-top__icons a:hover {
+    font-size: 32px
 }
 footer hr {
     margin-top: 40px;
@@ -197,6 +211,7 @@ footer hr {
     margin-top: 64px;
 }
 footer hr{
+    max-width: 100%;
     width: 1100px;
     height: 3px;
     background-color: #ff7500;
@@ -213,4 +228,8 @@ footer hr{
     color: #000;
     font-weight: 400;
     line-height: 18.75px;
+}
+.footer-links-list a:hover {
+    color: #ff7500;
+    font-size: 20px;
 }
