@@ -233,3 +233,4 @@ footer hr{
     color: #ff7500;
     font-size: 20px;
 }
+@media screen and (max-width: 1280px) { .container {width: 1200px;} }
