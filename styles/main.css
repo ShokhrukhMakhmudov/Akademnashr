@@ -51,6 +51,8 @@ h2, h4{
     color: #ff7500 !important;
     border-bottom: 2px solid #ff7500;
 }
+
+/* GLOBAL BTN STYLES */
 .main-header__item a:hover {
     color: #ff7500;
 }
@@ -60,6 +62,14 @@ h2, h4{
     padding: 12px 24px;
     background-color: #ff7500;
     border-radius: 4px;
+    border: 1px solid #ff7500;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #ff7500;
+}
+.btn:active {
+    opacity: 0.6;
 }
 
 
@@ -232,7 +242,4 @@ footer {
 .footer-links-list a:hover {
     color: #ff7500;
     font-size: 20px;
-}
-.footer {
-    
 }
