@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Akademnashr sayti</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Akademnashr</title>
+    <!-- <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css"> -->
+    <link rel="stylesheet" href="./styles/main.min.css">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +22,7 @@
             <nav class="main-header__nav">
                 <ul class="main-header__items">
                     <li class="main-header__item">
-                        <a href="#" style="border-bottom: 2px solid #ff7500;">Bosh sahifa</a>
+                        <a href="#" class="active">Bosh sahifa</a>
                     </li>
                     <li class="main-header__item">
                         <a href="#">Kitoblar</a>
@@ -38,19 +40,22 @@
             </nav>
         </div>
     </header>
+
     <section class="subtitle">
-        <div class="subtitle-content">
-            <hr>
-            <h2>Pythonda dasturlash asoslari</h2>
-            <p>Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-            <a href="#" class="subtitle-content__btn">Buyurtma berish</a>
+        <div class="container">
+            <div class="subtitle-content">
+                <hr class="short-hr">
+                <h2>Pythonda dasturlash asoslari</h2>
+                <p>Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+                <a href="#" class="subtitle-content__btn">Buyurtma berish</a>
+            </div>
+            <div class="subtitle-img"><img src="./img/python-book.jpg" alt=""></div>
         </div>
-        <div class="subtitle-img"><img src="./img/python-book.jpg" alt=""></div>
-        <div class="subtitle-background"></div>
     </section>
+    
     <section class="features">
-        <hr>
-        <h1>Nega aynan Akademnashr?</h1>
+        <hr class="short-hr">
+        <h2>Nega aynan Akademnashr?</h2>
         <div class="features-list">
             <div class="features-list__item">
                 <img src="./img/feature-icon.png" alt="">
@@ -69,12 +74,13 @@
             </div>
         </div>
     </section>
+
     <section class="sale">
         <div class="sale-content">
             <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
             <div class="sale-content__info">
                 <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                <p>Aksiyadagi eng katta to’plamda <i>50 ta kitob</i>ni <i>350 ming</i> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                <p>Aksiyadagi eng katta to’plamda <span>50 ta kitob</span>ni <span>350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
                 <a href="#" class="sale-content__btn">Buyurtma berish</a>
             </div>
             
@@ -82,7 +88,7 @@
         <div class="sale-img"><img src="./img/sale-img.jpg" alt=""></div>
     </section>
     <footer>
-        <div class="conta">
+        <div class="container">
             <div class="footer-top">
                 <a href="#">
                     <img src="img/Akademnashr logo.svg" alt="">
@@ -93,7 +99,7 @@
                     <a href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <hr>
+            <hr class="large-hr">
             <div class="footer-bottom">
                 <div class="footer-links-list">
                     <a href="">Bosh sahifa</a><br>
